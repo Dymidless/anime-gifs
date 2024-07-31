@@ -1,6 +1,81 @@
 # Anime Gifs
 
-Anime Gifs is a simple npm package created by [Dymidless](https://github.com/dymidless). It allows you to fetch anime gifs and reactions for your Discord bot.
+Anime Gifs is a simple npm package created by [Dymidless](https://github.com/dymidless). It allows you to fetch anime gifs and reactions for various purposes.
+
+## List of Reactions
+
+Here is the list of available reactions:
+
+| Reaction |
+| -------- |
+| "airkiss" |
+| "angrystare" |
+| "bite" |
+| "bleh" |
+| "blush" |
+| "brofist" |
+| "celebrate" |
+| "cheers" |
+| "clap" |
+| "confused" |
+| "cool" |
+| "cry" |
+| "cuddle" |
+| "dance" |
+| "drool" |
+| "evillaugh" |
+| "facepalm" |
+| "handhold" |
+| "happy" |
+| "headbang" |
+| "hug" |
+| "kiss" |
+| "laugh" |
+| "lick" |
+| "love" |
+| "mad" |
+| "nervous" |
+| "no" |
+| "nom" |
+| "nosebleed" |
+| "nuzzle" |
+| "nyah" |
+| "pat" |
+| "peek" |
+| "pinch" |
+| "poke" |
+| "pout" |
+| "punch" |
+| "roll" |
+| "run" |
+| "sad" |
+| "scared" |
+| "shout" |
+| "shrug" |
+| "shy" |
+| "sigh" |
+| "sip" |
+| "slap" |
+| "sleep" |
+| "slowclap" |
+| "smack" |
+| "smile" |
+| "smug" |
+| "sneeze" |
+| "sorry" |
+| "stare" |
+| "stop" |
+| "surprised" |
+| "sweat" |
+| "thumbsup" |
+| "tickle" |
+| "tired" |
+| "wave" |
+| "wink" |
+| "woah" |
+| "yawn" |
+| "yay" |
+| "yes" |
 
 ## Installation
 
@@ -25,7 +100,7 @@ const { getAnimeGif } = require('anime-gifs');
 
 getAnimeGif('happy')
     .then(url => {
-        // Send the gif url to your Discord channel
+        // Use the gif url as needed
     })
     .catch(error => console.error(error));
 ```
@@ -41,14 +116,14 @@ const { listReactions } = require('anime-gifs');
 
 listReactions()
     .then(reactions => {
-        // Use the reactions in your Discord bot
+        // Use the reactions as needed
     })
     .catch(error => console.error(error));
 ```
 
 ## Error Handling
 
-Both functions will throw an error if there is a problem fetching the data. Make sure to handle these errors appropriately in your Discord bot.
+Both functions will throw an error if there is a problem fetching the data. Make sure to handle these errors appropriately in your application.
 
 ## Repository
 
